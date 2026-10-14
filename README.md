@@ -8,9 +8,7 @@ App Ionic/Angular + Capacitor + Supabase para una distribuidora pequena. Esta pr
 
 La carpeta `demo/` contiene un prototipo interactivo autónomo con catálogo y ventas ficticias. Permite agregar productos al carrito, simular un cobro y ver cómo cambia el inventario. No se conecta a Supabase, Nubefact ni impresoras, y no registra operaciones reales.
 
-**Demo interactiva:** https://distribuidora-mariva-demo.vercel.app/
-
-La demostración estática vive en `demo/` y tiene su configuración de Vercel. La aplicación completa de Ionic/Angular se mantiene en la raíz del repositorio y necesita configurar un proyecto Supabase propio.
+Para publicar esta demostración en Vercel, importa el repositorio y selecciona `demo` como **Root Directory**. La aplicación completa de Ionic/Angular se mantiene en la raíz del repositorio y necesita configurar un proyecto Supabase propio.
 
 ## Instalacion local
 
