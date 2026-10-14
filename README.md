@@ -4,6 +4,12 @@
 
 App Ionic/Angular + Capacitor + Supabase para una distribuidora pequena. Esta preparada para venta POS, stock, clientes, caja, impresion termica Bluetooth/LAN, modo offline y facturacion Nubefact mediante Edge Functions.
 
+## Demostración para portafolio
+
+La carpeta `demo/` contiene un prototipo interactivo autónomo con catálogo y ventas ficticias. Permite agregar productos al carrito, simular un cobro y ver cómo cambia el inventario. No se conecta a Supabase, Nubefact ni impresoras, y no registra operaciones reales.
+
+Para publicar esta demostración en Vercel, importa el repositorio y selecciona `demo` como **Root Directory**. La aplicación completa de Ionic/Angular se mantiene en la raíz del repositorio y necesita configurar un proyecto Supabase propio.
+
 ## Instalacion local
 
 ```bash
