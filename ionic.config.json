@@ -1,0 +1,7 @@
+{
+  "name": "distribuidora-pos-ionic",
+  "type": "angular",
+  "integrations": {
+    "capacitor": {}
+  }
+}

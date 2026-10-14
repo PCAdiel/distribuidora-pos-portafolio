@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Angular/Ionic build artifacts
+.angular/
+www/
+dist/
+coverage/
+
+# Capacitor/Android generated files and local IDE state
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/local.properties
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/capacitor.settings.gradle
+android/app/capacitor.build.gradle
+android/capacitor-cordova-android-plugins/
+
+# Logs
+*.log
+npm-debug.log*
+ng-serve.*.log
+
+# Local secrets / signing
+.env
+.env.*
+*.jks
+*.keystore
+release.properties
+src/environments/environment.local.ts
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+supabase/.temp/
